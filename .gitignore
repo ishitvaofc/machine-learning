@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Data and large files
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
